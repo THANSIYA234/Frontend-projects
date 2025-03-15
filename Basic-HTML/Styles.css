@@ -1,0 +1,19 @@
+.navbar ul{
+
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    
+}
+header{
+    display: flex;
+    align-items: center;
+   
+}
+nav{
+    flex-grow: 1;
+   
+}
+
+
