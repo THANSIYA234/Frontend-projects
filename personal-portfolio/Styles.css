@@ -1,0 +1,143 @@
+body{
+    background-color: black;
+    color: white;
+}
+.navbar  {
+   display:flex;
+  background-color:rgb(97, 180, 86);
+
+width: 100%;
+
+    
+}
+.navbar img{
+    width:3rem;
+    height:2rem;
+    padding:30px;
+    color: white;
+}
+.navbar ul{
+    display:flex;
+       width:100%;
+        justify-content: flex-end;
+     gap:140px;
+        align-items: center;
+       padding: 0%;
+        margin-right: 80px ;
+       
+    }
+    .navbar li{
+       list-style-type: none;
+       
+        font-size: 20px;
+    }
+    .navbar a{
+        text-decoration: none;
+        color: rgb(1, 80, 14);
+    }
+   .welcome{
+    
+    height:600px;
+    padding-top:50px;
+   }
+   .welcome h1 {
+   text-align: center;
+   padding:140px;
+   font-size: 40px;
+   color: white;
+   }
+   
+   .section-row{
+    display:flex;
+    justify-content: space-between;
+    gap:20px;
+    border: 1px solid rgb(65, 212, 7);
+    height:500px;
+
+   }
+   .projects{
+    padding-left: 30px;
+    border: 1px solid rgb(65, 212, 7);
+    
+    width: 30%;
+   }
+   .work-experience{
+    border: 1px solid rgb(65, 212, 7);
+    width: 30%;
+    border-left: 30px;
+   }
+   hr{
+    width: 80%;
+   margin-top: 20px;
+   }
+   section h2{
+    text-align: center;
+    font-size: 30px;
+   }
+   .projects li{
+    font-size: 18px;
+    padding-top: 20px;
+   }
+   .work-experience h5 ,p ,a{
+    font-size: 18px;
+    padding-top: 10px;
+   }
+   .education{
+    font-size: 18px;
+    padding-right: 20px;
+   }
+
+   .teacher-review{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+   }
+   .review{
+    display: block;
+    border: 1px solid green;
+    height:200px;
+    width: 80%;
+   border-radius: 10px;
+   margin-left: 20px;
+   
+   }
+   .review p {
+    text-align: center;
+    padding-top: 20px;
+   }
+   footer{
+    background-color: rgb(17, 160, 41);
+    width: 100%;
+  
+    
+   }
+   
+   form{
+    width: 70%;
+   }
+   @media(max-width:1065px){
+    .navbar{
+        display: flex;
+    }
+    .teacher-review{
+        grid-template-columns: 1fr;
+    }
+    .section-row{
+        display: block;
+        height: fit-content;
+        margin-left: 20px;
+    }
+    .projects ,.work-experience ,.education {
+        border: none;
+
+    }
+    .work-experience {
+       padding-left: 30px;
+    }
+   
+}
+       
+    
+        
+
+
